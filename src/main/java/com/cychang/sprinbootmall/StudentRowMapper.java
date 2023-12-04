@@ -21,7 +21,7 @@ public class StudentRowMapper implements RowMapper {
         //這種寫法跟上面功能一樣，但較簡潔
         Student student = new Student();
         student.setId(resultSet.getInt("id"));
-        student.setName((resultSet.getString("name"));
+        student.setName(resultSet.getString("name"));
         return student; //完成rowmapper實作
 
     }

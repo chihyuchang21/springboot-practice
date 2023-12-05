@@ -1,4 +1,4 @@
-package com.cychang.sprinbootmall;
+package model;
 
 public class Student {
     Integer id;

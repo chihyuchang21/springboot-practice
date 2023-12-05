@@ -1,5 +1,6 @@
-package com.cychang.sprinbootmall;
+package mapper;
 
+import model.Student;
 import org.springframework.jdbc.core.RowMapper;
 
 import java.sql.ResultSet;
